@@ -8,12 +8,9 @@ cond1 = n.isnumeric()==True and len(n)==10 and (n[0]=="6" or n[0]=="7" or n[0]==
 #Number should not have any digit more than 7 times.
 
 if cond1 == True :
-  for num in numerics:
-    count =0 
-    for i in n:
-      if num==i:
-        count +=1
-    if count > 6:
+  for num in n:
+    print(n.count(num))
+    if n.count(num)>6:
       print("invalid") 
       break 
   else:
