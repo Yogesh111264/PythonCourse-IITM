@@ -23,8 +23,7 @@ if cond1 == True :
     else:
         print("valid")
 else:
-  print("invalid")          
-
+  print("invalid")      
 
       
    
